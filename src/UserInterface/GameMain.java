@@ -16,7 +16,7 @@ GameMain {
         BufferedImage img= ImageIO.read(new File("Resources/Icon/fire.png"));
         window.setIconImage(img);
         window.setContentPane(new GamePanel());
-        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         window.setResizable(false);
         window.pack();
         window.setVisible(true);
