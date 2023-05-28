@@ -14,9 +14,9 @@ public class Player extends MapObject {
    private int maxHealth;
    private int bullet;
    private int bulletDamage;
-   private boolean dead;
+   
    private boolean falling;
-   private boolean crouch;
+   
 
 
 
@@ -34,7 +34,7 @@ public class Player extends MapObject {
    private int JUMP = 4;
    private int CROUCH = 0;
    private int FALLING = 2;
-   private int DEAD=1;
+   
 
 
    public Player(TileMap tm) {
